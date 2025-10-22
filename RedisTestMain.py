@@ -18,5 +18,6 @@ r.set('foo', 'zebra')
 
 print(r.get('foo'))
 
+#in docker swarm if your container exits it is considered a fail so in order to address this I added a do nothing loop
 while(True):
     pass
