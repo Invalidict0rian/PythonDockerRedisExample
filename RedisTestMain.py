@@ -12,8 +12,11 @@ r.set('water', 'flowing')
 var = 'growing'
 r.set('plant', f'{var}')
 
-# print (r.get('foo'))
+print (r.get('foo'))
 
 r.set('foo', 'zebra')
 
-# print(r.get('foo'))
+print(r.get('foo'))
+
+while(True):
+    pass
